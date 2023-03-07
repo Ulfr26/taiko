@@ -1,17 +1,16 @@
 pub struct TrackMetadata {
-    title: String, // TODO: Translations
-    bpm: f32,
-    wave: String,
-    offset: f32,
-    demostart: f32,
-
-    subtitle: Option<String>,
-    scoremode: Option<u8>,
-    lyrics: Option<String>,
-    genre: Option<String>,
-    maker: Option<String>,
+    pub title: String, // TODO: Translations
+    pub bpm: f32,
+    pub wave: String,
+    pub offset: f32,
+    pub demostart: f32,
+    pub subtitle: Option<String>,
+    pub scoremode: Option<u8>,
+    pub lyrics: Option<String>,
+    pub genre: Option<String>,
+    pub maker: Option<String>,
 }
 
 pub struct Track {
-    metadata: TrackMetadata,
+    pub metadata: TrackMetadata,
 }
