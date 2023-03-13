@@ -19,7 +19,7 @@ pub enum Difficulty {
     Normal,
     Hard,
     Oni,
-    Ura, 
+    Ura,
 }
 
 pub enum NoteType {
