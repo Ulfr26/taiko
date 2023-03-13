@@ -7,3 +7,8 @@ edition = "2021"
 
 [dependencies]
 nom = "7.1.3"
+
+[dependencies.sdl2]
+version = "0.35.2"
+default-features = false
+features = ["ttf", "image", "gfx", "mixer"]
